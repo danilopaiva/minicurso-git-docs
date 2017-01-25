@@ -127,7 +127,7 @@ Renomeando seu repositório:
 
 Enviando os commits para o repositório remoto:
 
-* git push origin "branch"
+* git push origin "branch" 
 
 Sincronizando o repositório local com o remoto:
 
