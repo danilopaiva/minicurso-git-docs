@@ -107,10 +107,6 @@ Desfazendo mudanças rastreadas:
 
 * git reset --hard
 
-# Desfazendo mudanças já comitadas
-
-
-aaaa
 # Repositório remoto
 
 ![branches](images/branches.png)
