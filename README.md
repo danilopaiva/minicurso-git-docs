@@ -25,10 +25,8 @@
 
 * Git e GitHub são a mesma coisa?
 
-* Por que GIT?
-
 * Como é de praxe:
-  - GIT foi criado em 2005 por Linus Torvalds (o mesmo criador do Linux, que estava descontente com o BitKeeper, o sistema de controle de versão utilizado no desenvolvimento do kernel do Linux)
+  - GIT foi criado em 2005 por Linus Torvalds (criador do Linux)
 
 # Principais Repositórios
 
