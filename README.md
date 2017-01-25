@@ -136,13 +136,3 @@ Sincronizando o repositório local com o remoto:
 Trazendo as informações do repositório remoto sem mesclar
 
 * git fetch origin "branch"
-
-# Branches
-
-Visualizando suas branches:
-
-* git branch
-
-* git branch -v
-
-![branches](images/branches.png)
