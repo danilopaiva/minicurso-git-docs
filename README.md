@@ -127,7 +127,7 @@ Renomeando seu repositório:
 
 Enviando os commits para o repositório remoto:
 
-* git push origin "branch" 
+* git push origin "branch"
 
 Sincronizando o repositório local com o remoto:
 
@@ -154,6 +154,12 @@ Criando uma branch:
 Trocando de branch:
 
 * git checkout feature/x
+
+Vizualizando as branches remotas:
+
+* git branch -r
+
+* git branch -a
 
 Realizando o merge entre duas branches:
 
