@@ -97,7 +97,15 @@ Verificando o histórico do seu repositório:
 
 Desfazendo mudanças não rastreadas:
 
-* git checkout -- <file>
+* git checkout -- "file"
+
+Desfazendo mudanças rastreadas:
+
+* git reset -- "file"
+
+# Desfazendo mudanças rastreadas mas voltando para o último commit:
+
+* git reset --hard
 
 # Repositório remoto
 
