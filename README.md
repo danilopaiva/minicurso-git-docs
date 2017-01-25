@@ -136,3 +136,27 @@ Sincronizando o repositório local com o remoto:
 Trazendo as informações do repositório remoto sem mesclar
 
 * git fetch origin "branch"
+
+# Branches
+
+![branches](images/branches.png)
+
+Visualizando suas branches:
+
+* git branch
+
+* git branch -v
+
+Criando uma branch:
+
+* git branch feature/x
+
+Trocando de branch:
+
+* git checkout feature/x
+
+Realizando o merge entre duas branches:
+
+* git checkout develop (Voltando para a branch develop)
+
+* git merge feature/x -m "Mesclando com a branch feature/x"
