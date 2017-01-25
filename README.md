@@ -87,4 +87,8 @@ Ignorando alguns arquivos:
 
 * .gitignore
 
+Gravando os arquivos no repositório:
+
+* git commit -m <mensagem>
+
 # Repositório remoto
