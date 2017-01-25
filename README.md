@@ -57,83 +57,83 @@
 
 # Repositório local
 
-Criando um repositório local:
+## Criando um repositório local:
 
 * git init
 
-Rastreando os arquivos:
+## Rastreando os arquivos:
 
 * git status
 
 ![StagingArea](images/StagingArea.png)
 
-Adicionando um arquivo na área de Stage:
+## Adicionando um arquivo na área de Stage:
 
 * git add
 
-Vizualizando diferenças entre os arquivos rastreáveis e não rastreáveis
+## Vizualizando diferenças entre os arquivos rastreáveis e não rastreáveis
 
 * git diff
 
-Ignorando alguns arquivos:
+## Ignorando alguns arquivos:
 
 * .gitignore
 
-Gravando os arquivos no repositório:
+## Gravando os arquivos no repositório:
 
 * git commit -m <mensagem>
 
-Verificando o histórico do seu repositório:
+## Verificando o histórico do seu repositório:
 
 * git log
 
-Desfazendo mudanças não rastreadas:
+## Desfazendo mudanças não rastreadas:
 
 * git checkout -- "file"
 
-Desfazendo mudanças rastreadas:
+## Desfazendo mudanças rastreadas:
 
 * git reset -- "file"
 
-Desfazendo mudanças rastreadas mas voltando para o último commit:
+## Desfazendo mudanças rastreadas mas voltando para o último commit:
 
 * git reset --hard
 
-Desfazendo mudanças já comitadas:
+## Desfazendo mudanças já comitadas:
 
 * git revert --no-edit HEAD
 
 # Repositório remoto
 
-Clonando um repositório remoto existente:
+## Clonando um repositório remoto existente:
 
 * git clone https://github.com/danilopaiva/products-service-inc.git
 
-Criando um repositório:
+## Criando um repositório:
 
 * git init
 
-Adicionando um repositório remoto:
+## Adicionando um repositório remoto:
 
 * git remote add origin https://github.com/danilopaiva/minicurso-git-service.git
 
-Vizualizando seus repositórios:
+## Vizualizando seus repositórios:
 
 * git remote -v
 
-Renomeando seu repositório:
+## Renomeando seu repositório:
 
 * git remote rename origin github
 
-Enviando os commits para o repositório remoto:
+## Enviando os commits para o repositório remoto:
 
 * git push origin "branch"
 
-Sincronizando o repositório local com o remoto:
+## Sincronizando o repositório local com o remoto:
 
 * git pull origin "branch"
 
-Trazendo as informações do repositório remoto sem mesclar
+## Trazendo as informações do repositório remoto sem mesclar
 
 * git fetch origin "branch"
 
@@ -141,28 +141,32 @@ Trazendo as informações do repositório remoto sem mesclar
 
 ![branches](images/branches.png)
 
-Visualizando suas branches:
+## Visualizando suas branches:
 
 * git branch
 
 * git branch -v
 
-Criando uma branch:
+## Criando uma branch:
 
 * git branch feature/x
 
-Trocando de branch:
+## Trocando de branch:
 
 * git checkout feature/x
 
-Vizualizando as branches remotas:
+## Vizualizando as branches remotas:
 
 * git branch -r
 
 * git branch -a
 
-Realizando o merge entre duas branches:
+## Realizando o merge entre duas branches:
 
 * git checkout develop (Voltando para a branch develop)
 
 * git merge feature/x -m "Mesclando com a branch feature/x"
+
+# Hands On
+
+* Para mais informações sobre o Hands On acesse o projeto: https://github.com/danilopaiva/minicurso-git-service
