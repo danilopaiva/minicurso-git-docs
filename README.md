@@ -7,6 +7,7 @@
 * Repositório local
 * Repositório remoto
 * Branches
+* Referências
 * Hands On
 
 # Introdução
@@ -170,3 +171,8 @@
 # Hands On
 
 * Para mais informações sobre o Hands On acesse o projeto: https://github.com/danilopaiva/minicurso-git-service
+
+# Referências
+
+* ProGit - https://git-scm.com/book/en/v2
+* Git e GitHub - https://www.casadocodigo.com.br/products/livro-git-github
