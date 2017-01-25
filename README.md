@@ -7,6 +7,7 @@
 * Repositório local
 * Repositório remoto
 * Branches
+* Referências
 * Hands On
 
 # Introdução
@@ -166,3 +167,8 @@ Realizando o merge entre duas branches:
 * git checkout develop (Voltando para a branch develop)
 
 * git merge feature/x -m "Mesclando com a branch feature/x"
+
+# Referências
+
+* ProGit - https://git-scm.com/book/en/v2
+* Git e GitHub - https://www.casadocodigo.com.br/products/livro-git-github
