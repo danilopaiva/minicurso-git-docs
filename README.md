@@ -91,4 +91,14 @@ Gravando os arquivos no repositório:
 
 * git commit -m <mensagem>
 
+Verificando o histórico do seu repositório:
+
+* git log
+
+Desfazendo mudanças não rastreadas:
+
+* git checkout -- <file>
+
 # Repositório remoto
+
+![branches](images/branches.png)
