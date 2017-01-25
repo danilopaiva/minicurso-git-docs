@@ -3,10 +3,10 @@
 * Introdução GIT
 * Instalação
 * Configurando suas preferências
-* Repositórios
-* Criando um repositório GIT
+* Principais Repositórios
 * Repositório local
 * Repositório remoto
+* Branches
 * Hands On
 
 # Introdução
@@ -29,10 +29,11 @@
 * Como é de praxe:
   - GIT foi criado em 2005 por Linus Torvalds (o mesmo criador do Linux, que estava descontente com o BitKeeper, o sistema de controle de versão utilizado no desenvolvimento do kernel do Linux)
 
-# Repositórios
+# Principais Repositórios
 
-* Bitbucket
 * GitHub - Rede Social para programadores
+* Bitbucket
+* Google Code
 
 # Instalação
 
@@ -53,19 +54,6 @@
 ## Listar suas configurações
 
 * git config --list
-
-# Criando um repositório GIT
-
-## Criando um repositório em um diretório existente
-
-Para transformar o diretório atual em um repositório do Git, basta exe-
-cutar o comando:
-
-* git init
-
-## Clonando um repositório remoto
-
-git clone https://github.com/danilopaiva/products-service-inc.git
 
 # Repositório local
 
@@ -117,9 +105,44 @@ Desfazendo mudanças já comitadas:
 
 # Repositório remoto
 
-Clonando um repositório:
+Clonando um repositório remoto existente:
 
 * git clone https://github.com/danilopaiva/products-service-inc.git
 
+Criando um repositório:
+
+* git init
+
+Adicionando um repositório remoto:
+
+* git remote add origin https://github.com/danilopaiva/minicurso-git-service.git
+
+Vizualizando seus repositórios:
+
+* git remote -v
+
+Renomeando seu repositório:
+
+* git remote rename origin github
+
+Enviando os commits para o repositório remoto:
+
+* git push origin "branch"
+
+Sincronizando o repositório local com o remoto:
+
+* git pull origin "branch"
+
+Trazendo as informações do repositório remoto sem mesclar
+
+* git fetch origin "branch"
+
+# Branches
+
+Visualizando suas branches:
+
+* git branch
+
+* git branch -v
 
 ![branches](images/branches.png)
