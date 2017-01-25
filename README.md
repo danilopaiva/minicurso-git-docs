@@ -83,6 +83,10 @@ Adicionando um arquivo na área de Stage:
 
 * git add
 
+Vizualizando diferenças entre os arquivos rastreáveis e não rastreáveis
+
+* git diff
+
 Ignorando alguns arquivos:
 
 * .gitignore
@@ -103,10 +107,19 @@ Desfazendo mudanças rastreadas:
 
 * git reset -- "file"
 
-# Desfazendo mudanças rastreadas mas voltando para o último commit:
+Desfazendo mudanças rastreadas mas voltando para o último commit:
 
 * git reset --hard
 
+Desfazendo mudanças já comitadas:
+
+* git revert --no-edit HEAD
+
 # Repositório remoto
+
+Clonando um repositório:
+
+* git clone https://github.com/danilopaiva/products-service-inc.git
+
 
 ![branches](images/branches.png)
