@@ -19,11 +19,14 @@
   - Como mesclar as alterações que fizemos com a demais alterações da equipe?
   - Como identificar conflitos entre essas alterações?
 
+
 * GIT x SVN
   - Sistemas de versionamento centralizados
   - Sistemas de versionamento distribuídos
 
-* Git e GitHub são a mesma coisa?
+
+* Git e GitHub são as mesmas coisas?
+
 
 * Como é de praxe:
   - GIT foi criado em 2005 por Linus Torvalds (criador do Linux)
@@ -70,7 +73,7 @@
 
 * git add
 
-## Vizualizando diferenças entre os arquivos rastreáveis e não rastreáveis
+## Visualizando diferenças entre os arquivos rastreáveis e não rastreáveis
 
 * git diff
 
@@ -116,7 +119,7 @@
 
 * git remote add origin https://github.com/danilopaiva/minicurso-git-service.git
 
-## Vizualizando seus repositórios:
+## Visualizando seus repositórios:
 
 * git remote -v
 
@@ -154,7 +157,7 @@
 
 * git checkout feature/x
 
-## Vizualizando as branches remotas:
+## Visualizando as branches remotas:
 
 * git branch -r
 
