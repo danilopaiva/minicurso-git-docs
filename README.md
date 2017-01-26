@@ -177,3 +177,5 @@
 
 * ProGit - https://git-scm.com/book/en/v2
 * Git e GitHub - https://www.casadocodigo.com.br/products/livro-git-github
+
+Vale muito apena ver o blog do Fernando Jorge que exemplifica bem o Git Flow: https://fjorgemota.com/git-flow-uma-forma-legal-de-organizar-repositorios-git/
