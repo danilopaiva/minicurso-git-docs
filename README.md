@@ -8,6 +8,7 @@
 * Repositório remoto
 * Branches
 * Hands On
+* Apêndice
 * Referências
 
 # Introdução
@@ -178,6 +179,31 @@ Convenções Git Flow:
 # Hands On
 
 * Para mais informações sobre o Hands On acesse o projeto: https://github.com/danilopaiva/minicurso-git-service
+
+# Apêndice
+
+Para que não haja a necessidade de ficar o tempo todo executando o "git status" só para ver em qual branch você está, é possível configurar seu terminal para que ele lhe apresente a branch corrente conforme as imagens abaixo:
+
+Brach develop:
+
+![branchDevelop](images/branchDevelop.png)
+
+Branch feature/appendix:
+
+![branchAppendix](images/branchAppendix.png)
+
+## Configuração:
+
+* Abra o arquivo .bashrc:
+```
+vim ~/.bashrc
+```
+* Adicione a seguinte linha no final do arquivo:
+```
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[01;32m\]\w\[\033[00m\]\[\033[01;31m\]\$(parse_git_branch)\[\033[00m\]$ "
+```
+
+Feche seu terminal atual e abra um novo que já estará com as novas configurações.
 
 # Referências
 
