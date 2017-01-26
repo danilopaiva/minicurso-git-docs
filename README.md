@@ -7,8 +7,8 @@
 * Repositório local
 * Repositório remoto
 * Branches
-* Referências
 * Hands On
+* Referências
 
 # Introdução
 
@@ -141,7 +141,13 @@
 
 # Branches
 
+Convenções Git Flow:
+
 ![branches](images/branches.png)
+
+Convenções Git Flow:
+
+![branchesGitFlow](images/git-flow-updated.png)
 
 ## Visualizando suas branches:
 
