@@ -7,7 +7,6 @@
 * Repositório local
 * Repositório remoto
 * Branches
-* Hands On
 * Apêndice
 * Referências
 
@@ -110,7 +109,7 @@
 
 ## Clonando um repositório remoto existente:
 
-* git clone https://github.com/danilopaiva/products-service-inc.git
+* git clone https://github.com/danilopaiva/minicurso-git-docs.git
 
 ## Criando um repositório:
 
@@ -118,7 +117,7 @@
 
 ## Adicionando um repositório remoto:
 
-* git remote add origin https://github.com/danilopaiva/minicurso-git-service.git
+* git remote add origin https://github.com/danilopaiva/minicurso-git-docs.git
 
 ## Visualizando seus repositórios:
 
@@ -176,10 +175,6 @@ Convenções Git Flow:
 
 * git merge feature/x -m "Mesclando com a branch feature/x"
 
-# Hands On
-
-* Para mais informações sobre o Hands On acesse o projeto: https://github.com/danilopaiva/minicurso-git-service
-
 # Apêndice
 
 Para que não haja a necessidade de ficar o tempo todo executando o "git status" só para ver em qual branch você está, é possível configurar seu terminal para que ele lhe apresente a branch corrente conforme as imagens abaixo:
@@ -195,12 +190,12 @@ Branch feature/appendix:
 ## Configuração:
 
 * Abra o arquivo .bashrc:
-```
+```bash
 vim ~/.bashrc
 ```
 * Adicione as seguintes linhas no final do arquivo:
 
-```
+```bash
 parse_git_branch() {
 
   if ! git rev-parse --git-dir > /dev/null 2>&1; then
