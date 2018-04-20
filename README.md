@@ -179,9 +179,9 @@ Convenções Git Flow:
 
 Para que não haja a necessidade de ficar o tempo todo executando o "git status" só para ver em qual branch você está, é possível configurar seu terminal para que ele lhe apresente a branch corrente conforme as imagens abaixo:
 
-Brach develop:
+Branch master:
 
-![branchDevelop](images/branchDevelop.png)
+![branchMaster](images/branchMaster.png)
 
 Branch feature/appendix:
 
