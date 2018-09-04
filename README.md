@@ -53,6 +53,10 @@
 
 * git config --global core.editor vim
 
+## Salvando suas credenciais
+
+* git config --global credential.helper 'cache --timeout=28800'
+
 ## Listar suas configurações
 
 * git config --list
